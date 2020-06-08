@@ -6,19 +6,46 @@
 //
 // If the potential member is not in the array, return the array unchanged.
 // If the potential member is in the array, remove all instances of it from the array.
+// function remove (array,potential){
+//   let student = ["Cadence", "Ordel", "Marion"]
+//   let idx = student.indexOf("Ordel")
+//   student.splice(idx, 1)
+//   return student;
+// }
 
 // 2. Revisit your "remove" function. Make sure that it does not change the original
 // array but instead returns a new array.
-
+//function 
+function remove (nameArray, newArray) {
+    consol.log("newArray")
+    let idx = nameArray.indexOf(newArray);
+    let nameArray = newArray.filter(name => name !== newArray);
+    console.log(newArray);
+    return newArray;
 // 3. Create a function called "sum" that takes an array of numbers and
 // returns the sum of those numbers.
-
+function remove (newArray) {
+  let newArray = [];
+  for (let newArray of newArray);
+    return newArray;
+}
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
+function average (array){
+  const getAverage = 0; 
+  arr.array.forEach(element total += element});
+function average numbers (array)    
 
-// 5. Create a function called "minimum" that takes an array of numbers and
+ // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
-
+functions minimum (array) {
+  let numbers = minimumNumber;
+  let numbers = [];
+  for (let number of numbers); {
+    if (minimum.push(numbers));
+  }
+  return minimumNumber
+}
 // 6. There are many techniques to sort arrays in programming. Your programming
 // language will likely include the ability to do this. We are going to
 // implement sorting ourselves, however.
@@ -48,4 +75,13 @@
 //
 // For example, `textList(['Cadence', 'Ordel', 'Marion'])` results in the string
 // `"Cadence,Ordel,Marion"`.
+function textList() = fruits{
+var textList = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+}
 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango", "Cherries"];
+document.getElementById("demo").innerHTML = fruits.toString();
+</script>
